@@ -21,8 +21,6 @@ function Column(name) {
     function createColumn() {
     	// here is the code for creating the column, which you will find below
     }
-  }
-  
 Column.prototype = {
     addCard: function(card) {
       this.$element.children('ul').append(card.$element);
@@ -31,6 +29,7 @@ Column.prototype = {
       this.$element.remove();
     }
 }
+  }
   
 function createColumn() {
     // CREATING COMPONENTS OF COLUMNS
@@ -100,11 +99,6 @@ var board = {
     },
     $element: $('#board .column-container')
 };
-
-addColumn: function(column) {
-	this.$element.append(column.$element);
-	initSortable(); 
-}
 
 function initSortable() {
    $('.column-card-list').sortable({
