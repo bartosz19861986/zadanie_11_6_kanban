@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: silver;
+}
+.board {
+	max-width: 1200px;
+	margin: 30px auto;
+	background-color: #496D89;
+	text-align: center;
+}
+.board h1 {
+	font-size: 60px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.create-column {
+	margin: 20px;
+	padding: 10px 20px;
+	font-size: 100%;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #294F6D;
+	border: none;
+	border-radius: 5px;
+}
+.create-column:hover {
+	background-color: #4C9AD6;
+}
+.column {
+	float: left;
+	width: 31.3%;
+	margin: 1%;
+	background-color: #042037;
+	min-height: 40vh;
+	border-radius: 15px;
+	position: relative;
+}
+li {
+	list-style: none;
+}
+.column-title {
+	background-color: #ffd74d;
+	padding: 10px;
+}
+.add-card {
+	padding: 10px;
+	margin: 10px 0;
+	text-transform: uppercase;
+	background-color: #718EA4;
+	color: #000000;
+	border: none;
+	border-radius: 10px;
+}
+.add-card:hover {
+	background-color: #087AD2;
+}
+/*.column-card-list {
+	min-height: 20vh;
+}*/
+.card {
+	list-style-type: none;
+	background-color: #fff;
+	margin: 10px 70px 10px 70px;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #718EA4;
+}
+
+.column .btn-delete {
+	background-color: #F66100;
+	color: #000000;
+	border: none;
+	border-radius: 3px;
+	font-size: 20px;;
+	line-height: 30px;
+	cursor: pointer;
+	text-transform: uppercase;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 3px;
+	right: 30px;
+}
+.column .btn-delete:hover {
+	background-color: #042037;
+	color: #FFF;
+}
+.card .btn-delete {
+	width: 18px;
+	height: 18px;
+	font-size: 12px;
+	line-height: 18px;
+	position: absolute;
+	top: 9px;
+	right: 3px;
+
+}
