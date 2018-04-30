@@ -26,6 +26,7 @@ body {
 	background-color: #294F6D;
 	border: none;
 	border-radius: 5px;
+	cursor: pointer;
 }
 .create-column:hover {
 	background-color: #4C9AD6;
@@ -54,6 +55,7 @@ li {
 	color: #000000;
 	border: none;
 	border-radius: 10px;
+	cursor: pointer;
 }
 .add-card:hover {
 	background-color: #087AD2;
